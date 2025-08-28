@@ -21,13 +21,21 @@ Arquitetura: MVC (Model-View-Controller)
 
 📂 Estrutura do Projeto
 aurora-vinhos/
-├── controllers/        # Lógica de controle das rotas e regras de negócio
+ 
+├── controllers/        # Lógica de controle das rotas e regras de negócio 
+
 ├── models/             # Modelos de dados e integração com o Knex
+
 ├── views/              # Páginas renderizadas (HTML, EJS, Handlebars ou outro)
+
 ├── public/             # Arquivos estáticos (CSS, JS, imagens)
+
 ├── banco-de-dados/     # Configurações, migrações e seeds do Knex
+
 ├── rotas/              # Definição das rotas do site
+
 ├── app.js              # Arquivo principal da aplicação
+
 └── package.json        # Dependências e scripts do projeto
 
 🎯 Objetivo
@@ -51,7 +59,11 @@ Inspirada na marca Aurora Vinhos, elegante e sofisticada:
 
 Elemento	Cor HEX
 Bordô (principal)	#6A1B2E
+
 Dourado (detalhes)	#CFAF6D
+
 Branco Off-White	#F8F5F0
+
 Cinza Escuro (texto)	#2E2E2E
+
 Preto (títulos fortes)	#000000
