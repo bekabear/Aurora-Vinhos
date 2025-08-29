@@ -13,8 +13,8 @@ module.exports = {
 
             res.sendFile(path.join(__dirname, "../views/agradecimento.html"))
         } catch (error) {
-            console.error("Erro ao salvar contato:" , error);
-            res.status(500).send("Erro ao enviar mensagem. Tente novamente mais tarde.")
+            console.error("❌ Erro ao salvar contato:" , error);
+            res.status(500).send("❌ Erro ao enviar mensagem. Tente novamente mais tarde.")
         }
     }
 }
