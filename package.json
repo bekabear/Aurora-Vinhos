@@ -1,7 +1,7 @@
 {
   "name": "aurora-vinhos",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "dev": "tailwindcss -i ./src/public/css/index.css -o ./src/public/css/style.css --watch",
     "build": "tailwindcss -i ./src/public/css/index.css -o ./src/public/css/style.css --minify",
